@@ -671,3 +671,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.work-history, .edu-history {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-history ul, .edu-history ul{
+  list-style-type: none; /* Removes default list styling */
+  padding-left: 0;
+  text-align: left;
+}
+
+.edu-history li {
+  list-style-type: none;
+}
+
+.work-history li, .edu-history li {
+  margin-bottom: 20px; /* Adds space between entries */
+}
+
+.work-history li strong, .edu-history li strong {
+  display: block; /* Makes the job title stand out on its own line */
+  margin-bottom: 5px; /* Adds a little space between the job title and its details */
+  color: #0056b3; /* Example color for job titles */
+}
+
+.work-history ul ul {
+  padding-left: 20px; /* Indents the details for better hierarchy visualization */
+}
+
+.work-history ul ul li {
+  list-style-type: disc; /* Adds bullets to the nested list items */
+}

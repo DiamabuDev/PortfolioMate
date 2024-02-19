@@ -17,17 +17,17 @@ export const Projects = () => {
     const projects = [
         {
             title: "Fitzdares and CasinoTime (Canada) - Sports Betting Apps - iOS",
-            description: "Development of ...",
+            description: "Design & Development",
             imgUrl: projImg1,
         },
         {
             title: "ESPN Sports Center (USA)",
-            description: "Development of ...",
+            description: "Design & Development",
             imgUrl: projImg2,
         },
         {
             title: "ArmCare App (USA) - iOS",
-            description: "Development of ...",
+            description: "Design & Development",
             imgUrl: projImg3,
         },
         {

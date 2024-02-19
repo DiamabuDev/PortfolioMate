@@ -28,32 +28,85 @@ export const About = () => {
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                                            <Tab.Pane eventKey="first">
-                                                <p>Senior iOS developer - FSB Technology (2022 - 2023)
-                                                    Develop new features and correct bugs for casino and sports betting apps like CasinoTime (CA), Fitzdares (CA). Work with international teammates.
-
-                                                    Ssr iOS Developer - Globant (2021 - 2022)
-                                                    Develop new features and correct bugs for tvOS ESPN Sportscenter USA application. Work with Disney and international teammates.
-
-                                                    iOS Developer - Soluntech (2020 - 2021)
-                                                    Develop native for iOS ArmCare application, correct bugs and build new features. Refactor and build new architecture.
-
-                                                    iOS Developer - Valid (2020)
-                                                    Develop native for iOS Daviplata application, correct bugs and build new features. I worked on allies feature and virtual store.
-
-                                                    Mobile Developer - Proximate (2018 - 2020)
-                                                    Develop native mobile applications for Android and iOS. Analyze, design, and support mobile applications. Publish applications to the App store and Google Play Store Manage customer databases. Experiences with clients such as Seguros Colmena, EAN University, U. Rosario, Medplus, Colmédica, Efecty.</p>
+                                            <Tab.Pane eventKey="first" class="work-history">
+                                                <div class="work-history">
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Senior iOS Developer - FSB Technology (2022 - 2023)</strong>
+                                                            <ul>
+                                                                <li>Developed new features and corrected bugs for casino and sports betting apps, including CasinoTime (CA) and Fitzdares (CA).</li>
+                                                                <li>Collaborated with international teams.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <strong>Ssr. iOS Developer - Globant (2021 - 2022)</strong>
+                                                            <ul>
+                                                                <li>Developed new features and corrected bugs for the tvOS ESPN Sportscenter USA application.</li>
+                                                                <li>Worked with Disney and international teams.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <strong>iOS Developer - Soluntech (2020 - 2021)</strong>
+                                                            <ul>
+                                                                <li>Developed the native iOS ArmCare application, corrected bugs, and built new features.</li>
+                                                                <li>Refactored and developed a new architecture.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <strong>iOS Developer - Valid (2020)</strong>
+                                                            <ul>
+                                                                <li>Developed the native iOS Daviplata application, corrected bugs, and built new features.</li>
+                                                                <li>Contributed to the allies feature and the virtual store.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <strong>Mobile Developer - Proximate (2018 - 2020)</strong>
+                                                            <ul>
+                                                                <li>Developed native mobile applications for both Android and iOS platforms.</li>
+                                                                <li>Analyzed, designed, and provided support for mobile applications.</li>
+                                                                <li>Published applications to the App Store and Google Play Store.</li>
+                                                                <li>Managed customer databases.</li>
+                                                                <li>Worked with clients such as Seguros Colmena, EAN University, Universidad del Rosario, Medplus, Colmédica, and Efecty.</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>Education
-                                                    Systems and Telecommunications Engineer
-                                                    Sergio Arboleda (2015-2021)
-                                                    BPMN Diploma, Intelligent Industry and Data Analytics for the business management.
-                                                    University of Salamanca (2019-2020)</p>
+                                                <div class="edu-history">
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Systems and Telecommunications Engineer</strong>
+                                                            <ul>
+                                                                <li>Sergio Arboleda (2015-2021)</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <strong>BPMN Diploma, Intelligent Industry and Data Analytics for the business management.</strong>
+                                                            <ul>
+                                                                <li>University of Salamanca (2019-2020)</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>Spanish: Native Speaker
-                                                    English: Professional Proficiency    </p>
+                                            <div class="edu-history">
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Spanish</strong>
+                                                            <ul>
+                                                                <li>Native Speaker</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <strong>English</strong>
+                                                            <ul>
+                                                                <li>Professional Proficiency</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>
